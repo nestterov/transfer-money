@@ -1,0 +1,2 @@
+[21 дек. 2023 г.:18.16.19.154447000] Try: Transfer ->  amount: 5.0 RUR/ cardFromNumber: 0000111122223333/ cardToNumber: 0000111122224444
+[21 дек. 2023 г.:18.16.19.544693000] Confirm: Transfer ->  amount: 5.0 RUR/ cardFromNumber: 0000111122223333/ cardToNumber: 0000111122224444
