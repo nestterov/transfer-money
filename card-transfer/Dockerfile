@@ -1,6 +1,7 @@
-FROM node:20.11.1-slim
+FROM node:latest
+WORKDIR /g/transfer-money/card-transfer
+COPY package*.json ./
 EXPOSE 3000
-ADD ./ /front
-WORKDIR /front
 RUN npm install
-ENTRYPOINT ["npm", "run", "start"]
+COPY . .
+CMD ["npm",  "run", "serve"]
